@@ -14,8 +14,8 @@ pipeline {
     DOCKER_REPO_NAMESPACE = 'imlewc'
     GIT_ACCOUNT = 'imlewc'
     APP_NAME = 'devops-go-sample'
-    DOCKER_REPO_ADDRESS = 'harbor.devops.kubesphere.local:30280'
-    GIT_ADDRESS = 'gitlab.devops.kubesphere.local:30080'
+    DOCKER_REPO_ADDRESS = 'hub.docker.com'
+    GIT_ADDRESS = 'github.com'
   }
   stages {
     stage('checkout scm') {
